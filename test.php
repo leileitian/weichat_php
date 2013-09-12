@@ -2,7 +2,7 @@
 @header('Content-type: text/html;charset=UTF-8');
 
 require "config.php";
-require "include/WeiXin.php";
+require "/WeiXin.php";
 
 $weiXin = new WeiXin($G_CONFIG['weiXin']);
 
